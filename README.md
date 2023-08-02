@@ -8,3 +8,7 @@ Retrieves the list of contacts using the Lightning web component that displays c
 4. Used Lightning Datatable to render Contacts List.
 5. Created an App Page and embedded contactList LWC Component.
 4. Added App Page to App.
+
+<b>Testing Process:</b>
+1. Write a test class "ContactController_Test" to test the functionality with proper testing
+2. Do Manual testing for the contacts.
