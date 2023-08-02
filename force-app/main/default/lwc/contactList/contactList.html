@@ -1,0 +1,13 @@
+<template>
+<lightning-card  variant="Narrow"  title="Contacts" icon-name="standard:account">
+    <lightning-button-icon  icon-name="action:add_contact" alternative-text="Show More" slot="actions"></lightning-button-icon>
+    <p class="slds-p-horizontal_small">
+        <lightning-datatable lwc:if={contacts}
+            key-field="id"
+            data={contacts}
+            hide-checkbox-column
+            columns={columns}>
+        </lightning-datatable>
+    </p>
+</lightning-card>
+</template>
