@@ -7,6 +7,7 @@ Retrieves the list of contacts using the Lightning web component that displays c
 3. Contacts using the apex method getContacts.
 4. Used Lightning Datatable to render Contacts List.
 5. Created an App Page and embedded contactList LWC Component.
+6. Check the Profiles and necessary permission for the Apex class and pages at the time of working for visibility
 4. Added App Page to App.
 
 <b>Testing Process:</b>
